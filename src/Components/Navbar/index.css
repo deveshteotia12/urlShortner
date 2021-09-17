@@ -1,0 +1,25 @@
+.NavContainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+.NavTitle{
+    color: white;
+}
+
+.button2{
+    margin-right: 30px;
+    border: none;
+    background: none;
+    color: white;
+    font-size: 1rem;
+}
+
+/* @media only screen and (max-width: 700px) 
+{
+   .NavContainer h1{
+       font-size: 1.2rem;
+   }
+} */

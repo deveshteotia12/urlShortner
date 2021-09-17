@@ -1,0 +1,60 @@
+.Homepage{
+   width: 100%;
+   height: 100%;
+   position: relative;
+   background-image: url('../../images/bg-pattern-intro.svg');
+   background-position: center;
+   background-color: rgb(247, 96, 96);
+}
+.FormHandler{
+    position: absolute;
+    top: 42vh;
+    left: 20vw;
+    width: 60vw;
+    align-items: center;
+    text-align: center;
+}
+.HomeIn{
+    display: block;
+    width: 100%;
+    padding: 3px 10px;
+    height: 30px;
+    font-size: 1rem;
+    outline: rgb(253, 56, 56);
+    border: none;
+    border-radius: 2px;
+}
+.button1{
+   margin-top: 20px;
+   padding: 2px 3px;
+   width: 150px;
+   background-color: white;
+   border: none;
+   border-radius: 4px;
+   height: 30px;
+   font-size: 1rem;
+   color: rgb(247, 96, 96);
+}
+.Error{
+    color: black;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.HomePageResult{
+    margin-top: 30px;
+}
+.HomePageResult h1{
+    font-size: 20px;
+}
+.HomePageResult input{
+    width: 50%;
+}
+
+@media only screen and (max-width: 700px) 
+{
+   .FormHandler{
+       width: 90vw;
+       left: 5vw;
+   }
+}

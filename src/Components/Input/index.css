@@ -1,0 +1,12 @@
+.inputCont{
+    width: 100%;
+}
+.inputCont label{
+    display: block;
+}
+.inputCont input{
+    width: 100%;
+    height: 30px;
+    padding: 2px 3px;
+    outline-color: rgb(247, 96, 96);
+}
