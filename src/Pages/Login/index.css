@@ -1,0 +1,62 @@
+.loginForm
+{
+    width: 30vw;
+    position: absolute;
+    top: 20vh;
+    left: 35vw;
+    height: 60vh;
+    background-color: white;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgb(146, 3, 3);
+}
+.loginForm.SignUp{
+    height: 65vh;
+    top: 15vh;
+
+}
+.loginForm .formTitle
+{
+    margin-bottom: 25px;
+    text-align: center;
+}
+.loginForm Input{
+    margin-bottom: 20px;
+}
+.loginForm button{
+    text-align: center;
+    padding: 5px 8px;
+    margin-top: 40px;
+    width: 100%;
+}
+.loginForm.SignUp button{
+    margin-top: 20px;
+}
+@media only screen and (max-width: 800px) 
+{
+    .loginForm{
+        width: 50vw;
+        height: 70vh;
+        left: 25vw;
+        top: 15vh;
+    }
+    .loginForm.SignUp{
+        height: 75vh;
+        top: 19vh;
+    }
+   
+}
+
+@media only screen and (max-width: 500px) 
+{
+    .loginForm{
+        width: 90vw;
+        height: 75vh;
+        left: 5vw;
+        top: 20vh;
+    }
+    .loginForm.SignUp{
+        height: 80vh; 
+        top: 18vh;
+    }
+}
